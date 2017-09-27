@@ -8,7 +8,7 @@
     </head>
     <body>
 
-	Los datos enviados a la BBDD son <?php echo $_POST["datos"]; ?>
+	Los datos enviados a la BBDD son <?php echo $_POST["datosBBDD"]; ?>
 
     </body>
 </html>
