@@ -32,5 +32,12 @@
 	</form>
 	<hr/>
 
+	<form action="datosBBDD" method="post">
+		{!! csrf_field() !!}
+		Guardar en BBDD: <input type="text" name="datosBBDD"><br>
+		<input type="submit">
+	</form>
+	<hr/>
+
     </body>
 </html>

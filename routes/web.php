@@ -30,3 +30,7 @@ Route::post('/adiosPost', function () {
 Route::post('/adiosPostDatos', function () {
     return view('adiosPostDatos');
 });
+
+Route::post('/datosBBDD', function () {
+    return view('datosBBDD');
+});
