@@ -14,7 +14,6 @@ class DatosBBDD extends Migration
     public function up()
     {
         Schema::create('tableDatos', function (Blueprint $table) {
-            $table->increments('id');
             $table->string('datos');
             $table->rememberToken();
             $table->timestamps();
