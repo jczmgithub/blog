@@ -7,6 +7,12 @@
 
     </head>
     <body>
+    <?php
+    use App\modeloDatos;
+    $data = new modeloDatos;
+    $data->datos = $_POST["datosBBDD"];
+    $data->save();
+    ?>
 
 	Los datos enviados a la BBDD son: <?php echo $_POST["datosBBDD"]; ?>
 
