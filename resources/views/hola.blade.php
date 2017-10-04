@@ -27,14 +27,14 @@
 
 	<form action="adiosPostDatos" method="post">
 		{!! csrf_field() !!}
-		Datos: <input type="text" name="datos"><br>
+		Datos: <input type="text" name="datos1"><br>
 		<input type="submit">
 	</form>
 	<hr/>
 
 	<form action="datosBBDD" method="post">
 		{!! csrf_field() !!}
-		Guardar en BBDD: <input type="text" name="datosBBDD"><br>
+		Guardar en BBDD: <input type="text" name="datos"><br>
 		<input type="submit">
 	</form>
 	<hr/>

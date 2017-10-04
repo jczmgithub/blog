@@ -8,7 +8,7 @@
     </head>
     <body>
 
-	Los datos enviados son <?php echo $_POST["datos"]; ?>
+	Los datos enviados son <?php echo $_POST["datos1"]; ?>
 
     </body>
 </html>
