@@ -1,14 +1,7 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
+@extends('layouts.master')
 
-        <title>Datos</title>
+@section('title', 'Datos')
 
-    </head>
-    <body>
-
-	Los datos enviados son <?php echo $_POST["datos1"]; ?>
-
-    </body>
-</html>
+@section('titulo')
+    <h1>Los datos enviados son: <?php echo $_POST["datos1"]; ?></h1>
+@stop

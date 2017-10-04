@@ -1,14 +1,8 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
+@extends('layouts.master')
 
-        <title>Agur</title>
+@section('title', 'Agur')
 
-    </head>
-    <body>
+@section('titulo')
+    <h1>Agur!</h1>
+@stop
 
-	Agur!
-
-    </body>
-</html>
