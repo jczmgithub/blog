@@ -36,3 +36,5 @@ Route::post('/datosBBDD', function () {
 });
 */
 Route::post('/datosBBDD', 'datosBBDDController@insertarDatosBBDD');
+
+
