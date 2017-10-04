@@ -32,6 +32,17 @@
 	</form>
 	<hr/>
 
+	@if ($errors->any())
+		<div class="alert alert-danger">
+			<p>Oops! Something went wrong</p>
+			<ul>
+				@foreach ($errors->all() as $error)
+					<li>{{ $error }}</li>
+				@endforeach
+			</ul>
+		</div>
+	@endif
+
 	<form action="datosBBDD" method="post">
 		{!! csrf_field() !!}
 		Guardar en BBDD: <input type="text" name="datos"><br>
