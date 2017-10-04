@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.master')
 
 @section('title', 'Hola')
 
@@ -6,6 +6,11 @@
     @parent
 
     <p>This is appended to the master sidebar.</p>
+@stop
+
+@section('titulo')
+    <h1>Hola</h1>
+    <p>Esto usa Bootstrap</p>
 @stop
 
 @section('content')
