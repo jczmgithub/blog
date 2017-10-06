@@ -12,6 +12,6 @@ class datosBBDDController extends Controller
 
         modeloDatos::create(request()->all());
 
-        return view('datosBBDD');
+        return view('adiosPostDatos');
     }
 }

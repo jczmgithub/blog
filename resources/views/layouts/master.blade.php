@@ -9,10 +9,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+{{--
 @section('sidebar')
     This is the master sidebar.
 @show
-
+--}}
 <div class="jumbotron text-center">
     @yield('titulo')
 </div>
